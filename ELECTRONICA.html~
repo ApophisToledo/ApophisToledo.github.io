@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toledo Electronica</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="ELECTRONICA.html">Inicio</a></li>
+                <li><a href="#">Proyectos</a>
+                    <ul class="submenu">
+                        <li><a href="proyecto1.html.html">Proyecto 1</a></li>
+                        <li><a href="proyecto2.html">Proyecto 2</a></li>  
+                        <li><a href="proyecto3.html">Proyecto 3</a></li>
+                        <li><a href="proyecto4.html">Proyecto 4</a></li>
+
+
+                    </ul>
+                </li>
+                <li><a href="https://programacion.top/">Programacion</a>
+                </li>
+                <li><a href="https://www.arduino.cc/">Arduino</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<h1>El mejor sitio para aprender eso que te apaciona</h1>
+    <h3><li>Electronica</li><p>Vamos a explicar en este curso los principales componentes utilizados en electrónica y sus principales aplicaciones, sobre todo en circuitos. <br><br>
+        Por ser un curso básico no entraremos en detalles demasiados complicados, solamente en el funcionamiento, forma de conexión y sus usos, suficiente en la mayoría de los casos. <br><br>
+        De todas formas al final de cada componente te encontrarás un enlace para ampliar conocimientos si quieres saber más sobre ese componente electrónico.<br><br>
+        Después de ver electrónica básica te recomendamos que hagas elJuego Componentes Electrónicos para comprobar lo que has aprendido. 
+            <br>
+            <br>
+            Al final también te recomendamos un libro donde vienen todos los componentes aquí explicados y muchos más. <br><br>
+        Comencemos.<br><br>
+       <div class="resistencias"> <span class="negrita-subrayado">LAS RESISTENCIAS FIJAS ></span><br><br>
+        Resistencias fijas: Siempre tienen el mismo valor. Su valor o unidad es el ohmio (Ω) y su valor teórico viene determinado por un código de colores. <br><br>
+        Si recuerdas la ley de ohm, a mayor resistencia menor intensidad de corriente, por eso se usan para limitar o impedir el paso de la corriente por una zona de un circuito.<br><br>
+        El símbolo utilizado para los circuitos, en este caso, pueden ser 2 diferentes, son los siguientes:<br><br>
+        <img src="símbolo-internacional-de-resistencia-versión-negrita-para-diseño-circuito-icono-y-172661635.jpg" width="156"><br><br>
+        Aquí tienes como son las resistencias en la realidad:<br><br>
+        <img src="resistencia-electrica-2.jpg" width="290"><br><br>
+        Como ves tienen unas barras de colores (código de colores) que sirven para definir el valor de la resistencia en ohmios (Ω).<br><br>
+        El primer color indica el primer número del valor de la resistencia, el segundo color el segundo número, y el tercero el numero de ceros a añadir.<br>
+        &nbsp;<br>
+            Cada color tiene asignado un número. <br>
+            <br>
+            Este código es el llamado código de colores de las resistencias. <br>
+            <br>
+            Un ejemplo. Rojo-Rojo-Rojo = 2200Ω (se le añaden dos ceros). <br>
+            <br>
+            Otro Ejemplo el de la siguiente imagen:<br><br>
+        <img src="codigo-colores-resistencias.jpg" width="400"><br><br>
+        El primer color nos dice que tiene un valor de 2, el segundo de 7, es decir 27, y el tercer valor es por 100.000 (o añadirle 5 ceros). La resistencia valdrá 2.700.000 ohmios. ¿Fácil no?. "<br>   <br></span></div>
+            <div class="potenciometro"><span class="negrita-subrayado">POTENCIOMETRO O RESISTENCIA VARIABLE<br>
+            <br>Son resistencias variables mecánicamente (manualmente). <br>
+            <br>
+            Los valores de la resistencia del potenciómetro varían desde 0Ω, el valor mínimo y un máximo, que depende del potenciómetro. 
+            <br>
+            <br>
+            Los potenciómetros tienen 3 terminales. <br><br>OJO La conexión de los terminales exteriores (los extremos) hace que funcione como una resistencia fija con un valor igual al máximo que puede alcanzar el potenciómetro. 
+            <br><br>El terminal del medio con el de un extremo hace que funcione como variable al hacer girar una pequeña ruleta. 
+            <br>
+            <br>
+            Aquí vemos 2 tipos diferentes, pero que funcionan de la misma forma:<br>
+            <br>
+            <img src="Potenciometro.jpeg" width="400"><br>
+            <br>Cualquier símbolo electrónico que tenga una flecha cruzándole significa que es variable. </div>
+            <br>
+            <br>
+            <div class="ldr"><br><span class="negrita-subrayado">LA LDR O RESISTENCIA VARIABLE CON LA LUZ</span><br>
+            <br>Resistencia que varía al incidir sobre ella el nivel de luz. <br>
+            <br>
+            Normalmente su resistencia disminuye al aumentar la luz sobre ella. <br>
+            <br>Suelen ser utilizados como sensores de luz ambiental o como una fotocélula que activa un determinado proceso en ausencia o presencia de luz.<br>
+            <br>
+            <img src="D_NQ_NP_787389-MLA43693887415_102020-W.jpg" width="196"><br>
+            <br>Cualquier símbolo que tenga flechas dirigidas hacia el símbolo, significa que cambia al actuar la luz sobre el. 
+            <br>
+            <br>
+            Su símbolo es:<br><br>
+            <img  src="simbolo ldr.png" width="181"><br></div>
+
+<br>
+<div class="termistor"><br><span class="negrita-subrayado">EL TERMISTOR</span><br><br>Son resistencias que varían su valor en función de la temperatura que alcanzan. 
+            <br>
+            <br>
+            Hay dos tipos: la NTC y la PTC. <br><br><span class="negrita">NTC</span> : Aumenta el valor de su resistencia al disminuir la temperatura (negativo).<br>
+            <br><span class="negrita">PTC</span>: Aumenta el valor de su resistencia al aumentar la temperatura (positivo).<br>
+            <br>
+            <img src="termistor.jpeg" width="164"><br>
+            <br>Los símbolos son:<br><br>
+            <img src="simbolo thermistor.svg.png" width="106">><br></div>
+            <div class="varistor">   <br><span class="auto-style1"><strong>VDR O VARISTOR RESISTENCIA VARIABLE CON LA TENSIÓN</strong></span><br>
+            <br>Un varistor es un componente electrónico que modifica su resistencia eléctrica en función de la tensión que se aplica en sus extremos o patillas. 
+            <br>
+            <br>
+            También se suele llamar por su abreviatura VDR (Voltaje Dependent Resistor). 
+            <br>
+            <br>
+            El tipo más común de varistor de oxido metálico (MOV). <br>
+            <br>
+            Un MOV contiene una masa cerámica de granos de óxido de zinc, en una matriz de otros óxidos metálicos (como pequeñas cantidades de bismuto, cobalto, manganeso) intercalados entre dos placas de metal (los electrodos). 
+            <br>
+            <br>
+            Se suele utilizar para proteger los componentes de un circuito contra sobretensiónes. 
+            <br>
+            <br><br>
+            <br>
+            <img src="varistor.jpg" width="431"><br></div>
+            <div class="diodo">   <br><span class="negrita-subrayado">EL DIODO</span><br><br>Componente electrónico que permite el paso de la corriente eléctrica en una sola dirección (polarización directa). 
+            <span class="negrita"><br>
+            <br>
+            Cuando se polariza inversamente no pasa la corriente por él</span>.<br>
+            <br>
+        <img  src="polarizacion del diodo.png" width="438"><br>
+            <br>En el diodo real viene indicado con una franja gris la conexión para que el diodo conduzca, 
+            como puedes ver en la imagen de arriba. 
+            <br>
+            <br>
+            De ánodo a cátodo conduce. <br>
+            <br>
+            De cátodo a ánodo no conduce.<br><br>El símbolo del diodo es el siguiente:<br>
+            <br>
+            <img src="diodo.jpeg" width="252"><br>
+            <br>Veamos como funcionaría en un circuito con un lámpara. <br>
+            <br>
+            Si en la pila la corriente va del polo positivo (Barra larga) al negativo (barra corta) 
+            tenemos que la lámpara:<br><br>
+            <img  src="Polarizacion-directa-e-inversa-del-diodo-LED-Fuente-Autores-Luego-de-realizar-dicho.png" width="282"><br>
+            <br>En el primer caso se dice que está polarizado directamente, la lámpara lucirá.<br>
+            <br>En el segundo caso está polarizado inversamente (fíjate que cambió la polaridad de la pila), en este caso la lámpara no luce.<br>
+            <br>Normalmente los diodos se utilizan con LEDs, no con lámparas o bombillas.<br><br></div>
+            <div class="led"><br><span class="negrita-subrayado">EL DIODO LED</span><br><br>Diodo que emite luz cuando se polariza directamente (patilla larga al +). 
+            <br>
+            <br>
+            Estos diodos funcionan con tensiones menores de 2V por lo que es necesario colocar una resistencia en serie con ellos cuando se conectan directamente a una pila de tensión mayor (por ejemplo de 4V).
+            <br><br>La patilla larga nos indica el ánodo. <br>
+            <br>
+            Lucirá cuando la patilla larga este conectada al polo positivo (polarización directa).<br>
+            <br>
+            <img src="diodo led.png" width="325"><br>
+            <br>Su símbolo para los circuitos es el siguiente:<br><br>
+            <img  src="/programacion html/simbolo led.png" width="274"><br><br></div>
+            <div class="zener"> <br><span class="negrita-subrayado">DIODO ZENER</span><br><br>Los diodos zener, zener diodo o simplemente zener, son diodos que están diseñados para mantener un voltaje constante en su terminales, llamado Voltaje o 
+            <span class="negrita">Tensión Zener (Vz) cuando se polarizan inversamente.<br>
+            <br>
+            E</span>s decir, cuando está el cátodo con una tensión positiva y el ánodo negativa.<br>
+            <br>En definitiva, los diodos zener se conectan en polarización inversa y mantiene constante la tensión de salida.<br>
+            <br>
+            <img src="zener.jpeg" width="205"><br>
+            <br>En realidad los diodos zener son como se muestra en la siguiente imagen:<br>
+            <br>
+            <img  src="simbolo zener.jpeg" width="192"><br><br></div>
+            <div class="condensador">  <br><span class="negrita-subrayado">EL CONDENSADOR</span><br><br>Componente que almacena una carga eléctrica, para liberarla posteriormente. 
+            <br><br>La cantidad de carga que almacena se mide en faradios (F). <br>
+            <br>
+            Esta unidad es muy grande por lo que suele usarse el microfaradio (10 elevado a -6 faradios) o el picofaradio (10 elevado a -12 faradios).
+            <br><br>OJO los condensadores electrolíticos están compuesto de una disolución química corrosiva, y siempre hay que conectarlos con la polaridad correcta. 
+            <br>
+            <br>
+            Patilla larga al positivo de la pila o batería.<br><br>
+            <img src="Electrolytic_capacitors.jpg" width="350"><br>Su Símbolo es el siguiente, el primero es un condensador normal y el segundo el símbolo de un condensador electrolítico:<br>
+            <br>
+            <img  src="simbolo condensador.jpg" width="350"><br></div>
+            <div class="temporizador"> <br><span class="negrita-subrayado">EL CONDENSADOR COMO TEMPORIZADOR</span><br>
+            <br>Los condensadores suelen utilizarse para temporizar, por ejemplo el tiempo de encendido de una lámpara. 
+            <br>
+            <br>
+            ¿Cuanto tiempo estará encendida la lámpara?. <br>
+            <br>
+            Pues lógicamente el tiempo que dure la descarga del condensador sobre ella.
+            <br><br>Una vez descargado se comporta como un interruptor abierto (hasta que no lo carguemos o se cargue el solo de nuevo). 
+            <br><br>Normalmente la descarga del condensador sobre un receptor se hace a través de una resistencia, así podemos controlar el tiempo de descarga solo con cambiar el valor de la resistencia. 
+            <br>
+            <br>
+            La resistencia limita la corriente de descarga y hace que tarde más en descargarse.<br>
+            <br>La fórmula del tiempo de carga y descarga de un condensador viene definido por la fórmula T= 5 x R x C. 
+            <br>
+            <br>
+            Donde R es el valor de la resistencia en ohmios y C la capacidad del condensador en Faradios.<br>
+            <br>Veamos un ejemplo:<br><br>
+            <img src="circuito condensador.png" width="439"><br>
+            <br>En este circuito cuando el conmutador este hacia la derecha el condensador se carga. 
+            <br>
+            <br>
+            Al cambiarlo a la posición de izquierda se descarga por la resistencia encendiendo el LED el tiempo que dura la descarga (que depende del valor de R y de C).<br><br></div>
+            <div class="rele"><br><span class="negrita-subrayado">EL RELE</span><br><br>Es un elemento que funciona como un interruptor accionado eléctricamente. 
+            <br><br>Tiene dos circuitos diferenciados. Un circuito de una bobina que cuando es activada por corriente eléctrica cambia el estado de los contactos. 
+            <br><br>Los contactos activarán o desactivarán otro circuito diferente al de activación de la bobina. 
+            <br>
+            <br>
+            Puede tener uno o más contactos y estos pueden ser abiertos o cerrados. 
+            <br>
+            <br>
+            Aquí puedes ver varios tipos:<br><br>
+            <img src="rele.jpeg" width="220"><br>
+            <br>Ahora vas a ver un relé real, un circuito de como se utilizaría un relé y por último su símbolo:<br>
+            <br>
+            <img  src="circuito rele.png" width="579"><br>
+            <br>La parte de la derecha del esquema activa la bobina del relé. Al llegarle corriente a la bobina, el contacto que estaba abierto, ahora se cerrará y se encenderá la bombilla de la parte izquierda. 
+            <br>
+            <br>
+            Si cortamos la corriente en la bobina el contacto vuelve a su posición de reposo, es decir abierto, y la lámpara se apagará.<br>
+            <br>Fíjate que el relé activa un circuito de una lámpara desde otro circuito diferente. 
+            <br>
+            <br>
+            Esto es muy útil cuando el circuito de la lámpara trabajará, por ejemplo a mucha tensión, podríamos activarlo desde un circuito externo al de la lámpara, el del relé, que trabajaría a mucha menos tensión, y por lo tanto mucho menos peligroso.<br>
+            <br>Otro Ejemplo. Vamos hacer un circuito para el retardo del encendido de una bombilla, mediante un condensador y un relé:<br>
+            <br>
+            <img src="bombita rele.png" width="437"><br>
+            <br>El condensador activa la bobina del relé cerrándose el contacto. <br>
+            <br>
+            Cuando se descarga la bobina no recibe corriente y el contacto del relé se abre. 
+            <br>
+            <br><br><br></div>
+            <div class="opto"><br><span class="negrita-subrayado">OPTOACOPLADOR</span><br><br>Un optoacoplador es un componente electrónico que se utiliza como transmisor y receptor óptico (de luz), es decir pueden transmitir de un punto a otro una señal eléctrica sin necesidad de conexión física ni cables (por el aire), mediante una señal luminosa. 
+            <br>
+            <br>
+            Por eso también se llaman OptoInterruptor.<br><br>
+            <img  src="optoacoplador-4N35.jpg" width="377"><br>
+            <br>Activamos una luz y esta luz llega a un detector que genera una tensión de salida, interruptor cerrado. 
+            <br>
+            <br>
+            Si no se activa la luz o no le llega la luz al detector, este no genera ninguna tensión de salida, es decir interruptor abierto.<br>
+            <br>Suelen ser elementos que sustituyen a los relés tradicionales. <br>
+            <br>
+            Se suelen utilizar para aislar dos circuitos, uno que trabaja a poco tensión (el del LED), llamado de control y otro a mucha tensión o a una tensión diferente (el del detector) llamado de potencia.<br><br></div>
+            <div class="divirsor"><br><span class="negrita-subrayado">DIVISOR DE TENSIÓN</span><br><br>
+            <img src="formula-divisor-de-tension.jpg" width="183"><br>
+            <br>En este circuito para una tensión de entrada fija la tensión de 
+             salida dependerá del valor de la resistencia variable de la parte de 
+             arriba. <br>
+            <br>
+            Al aumentar la resistencia del potenciómetro aumentará la tensión 
+             en él ya que Potenciómetro= Ip x Rp y la tensión de salida será menor ya 
+             que la suma de las 2 tensiones (la del potenciómetro y la de la resistencia 
+             fija) siempre será igual a la tensión de entrada. <br><br>Conclusión a mayor resistencia en la parte de arriba menor tensión 
+             de salida (en la parte de abajo). <br>
+            <br>
+            Si ahora cambiáramos el potenciómetro por 
+             la resistencia (potenciómetro abajo y resistencia fija arriba) la tensión 
+             de salida al aumentar la tensión del potenciómetro sería mayor, es decir al 
+             revés del circuito anterior de la figura.( 2 Re. Fijas).<br><br><br></div>
+             <div class="transistor"><br><span class="negrita-subrayado">EL TRANSISTOR</span><br><br>Es un componente electrónico que podemos considerarlo como un interruptor o como un amplificador. 
+            <br><br>Como un interruptor por que deja o no deja pasarla corriente, y como amplificador por que con una pequeña corriente (en la base) pasa una corriente mucho mayor (entre el emisor y el colector). 
+            <br>
+            <br><br>
+            <br>
+            <img src="transistor.png" width="208"><br>
+            <br>-En activa : deja pasar mas o menos corriente.<br><br>-En corte: no deja pasar la corriente.<br>
+            <br>-En saturación: deja pasar toda la corriente Veamos un símil hidráulico (con agua).<br>
+            <br>Símil hidráulico: Vamos a ver como funciona comparándolo con una llave de agua siendo el agua la corriente en la realidad y la llave el transistor.<br>
+            <img  src="simil transistor.png" width="400"><br>
+            <br>La llave es un muelle de cierre que se activa por la presión que actúa sobre él a través del agua de la tubería B. 
+            <br><br>- <span class="negrita">Funcionamiento en corte</span>: si no hay presión en B (no pasa agua por su tubería) no se abre la válvula y no se produce un paso de fluido desde E (emisor) hacia C (colector). 
+            <br><br>- <span class="negrita">Funcionamiento en activa</span>: si llega algo de presión a la base B, se abrirá la válvula en función de la presión que llegue, pasando agua desde E hacia C. 
+            <br><br>- <span class="negrita">Funcionamiento en saturación</span>: si llega suficiente presión por B se abre totalmente la válvula y todo el agua podrá pasar desde E hasta B (la máxima cantidad posible).<br>
+            <br>Como vemos en un transistor con una pequeña corriente por la base B conseguimos una circulación mucho mayor de corriente desde el emisor al colector (amplificador de corriente).<br>
+            <br>
+            Pero cuando no pasa nada de corriente por la base funciona como un interruptor cerrado, y cuando tiene la corriente de la base máxima, su funcionamiento es como un interruptor abierto. 
+            <br>
+            <br>
+            Podemos considerarlo un interruptor accionado eléctricamente (si metemos corriente por B, se abre).<br>
+            <br>
+            <img src="circuito-amplificador.jpg" width="262"><br>
+            <br>Hay una gama muy amplia de transistores por lo que antes de conectar deberemos identificar sus 3 patillas y saber si es PNP o NPN. 
+            <br>
+            <br>
+            En los transistores NPN se deba conectar al polo positivo el colector y la base, y en los PNP el colector y la base al polo negativo.<br>
+            <br>Veamos su símbolos, el NPN y el PNP:<br><br>
+            <img  src="npn y pnp.jpeg" width="311"><br>.<br></div>
+            <div class="basica"><br><span class="negrita-subrayado">CIRCUITOS DE ELECTRONICA BASICA</span><br>
+            <br>Ahora vamos a ver varios circuitos sencillos donde podemos aplicar los conocimientos adquiridos anteriormente.<br></div>
+            <div class="alarma"><br><span class="negrita-subrayado">CIRCUITO DE ALARMA POR ROTURA DE CABLE</span><br>
+            <br>
+            <img  src="alarma.jpg" width="441"><br>
+            <br>Cuando el cable se rompe el transistor se activa y la alarma suena. 
+            <br>
+            <br>
+            Mientras el cable este sin romperse la corriente pasará por el circuito exterior, que tiene menos resistencia, y al transistor no le llega corriente a la base, conclusión, el transistor no se activará y no sonará la alarma en serie con el.<br></div>
+            <div class="motor"><br><span class="negrita-subrayado">SENSIBLE LUZ PARA UN MOTOR</span><br>
+            <br>
+            <img  src="motor-sensible-a.jpg" width="434"><br>
+            <br>Cuando le ponemos luz a la LDR naja la resistencia y pasará mas corriente por la base hasta que sea la suficiente para activarlo. 
+            <br>
+            <br>
+            En ese momento el motor comenzará a funcionar. <br>
+            <br>
+            Si tenemos poca luz, la LDR tiene mucha resistencia y pasa poca corriente lo que implica que no le llega la suficiente corriente a la base del transistor.<br></div>
+            <div class="tacto"><br><span class="negrita-subrayado">CIRCUITO SENSIBLE AL TACTO</span><br>
+            <br>
+            <img src="maxresdefault.jpg" width="441"><br>
+            <br>Cuando ponemos un dedo sobre los 2 sensores pasará una pequeña cantidad de corriente hacia la base del transistor, corriente aunque pequeña pero suficiente para activarlo y pasar activar el motor. 
+            <br>
+            <br>
+            Los 2 transistores conectados de esa forma se llama conexión Darlington.
+            <br>
+            <br>
+            Sirve para amplificar la corriente de salida de los transistores.<br></div>
+            <div class="frio"><br><span class="negrita-subrayado">DETECTOR DE FRIO</span><br><br>
+            <img  src="FRIOCALIENTE.JPG" width="339"><br>
+            <br>Cuando enfriamos la NTC aumenta mucho su resistencia y la corriente irá por la base del transistor activándolo y se encenderá el LED. </div>
+            <br>
+            <br>
+
+            <br>
+            <br>
+
+            <br></p>
+
+
+</body>
+    
+<footer>Toledo Electronica &Copy; 2022 </footer>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toledo Electronica</title>
+<link rel="stylesheet" href="proyecto1css.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="ELECTRONICA.html">Inicio</a></li>
+                <li><a href="#">Proyectos</a>
+                    <ul class="submenu">
+                        <li><a href="proyecto1.html.html">Proyecto 1</a></li>
+                        <li><a href="proyecto2.html">Proyecto 2</a></li>  
+                        <li><a href="proyecto3.html">Proyecto 3</a></li>
+                        <li><a href="proyecto4.html">Proyecto 4</a></li>
+
+
+                    </ul>
+                </li>
+                <li><a href="https://programacion.top/">Programacion</a>
+                </li>
+                <li><a href="https://www.arduino.cc/">Arduino</a></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Contador Programable</h1>
+    <img src="PSX_20221114_100023.jpg" width="1250"><br><br>
+
+    <div class="proyecto1"> <h3>La funcion de este circuito es la de un timer , es decir que puede programar previamente al inicio de la cuenta hasta que numero quieres<br>
+que cuenta y al llegar a dicho numero corta la cuenta y lleva a cabo la accion que desees o le hayas puesto a su salida.</h3></div>
+</body>
+    
+<footer>Toledo Electronica &Copy; 2022 </footer>
+</html>
